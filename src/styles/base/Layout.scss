@@ -1,0 +1,19 @@
+.Layout {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00b894;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-x: hidden;
+
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}

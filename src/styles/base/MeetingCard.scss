@@ -1,0 +1,29 @@
+.MeetingCard {
+  min-width: 250px;
+  max-width: 250px;
+  height: 250px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  box-shadow: 0 10px 22px -6px rgba(0,0,0,0.75);
+  margin: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  color: burlywood;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  &__value {
+    margin: 8px 0;
+  }
+
+  &__delete {
+    position: absolute;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: tomato;
+    top: 12px;
+    right: 12px;
+  }
+}
